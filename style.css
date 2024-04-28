@@ -74,6 +74,7 @@ body {
 
 .font-family-selector {
     width: 150px;
+    font-family: 'Noto Sans';
 }
 
 .selector {
@@ -208,6 +209,8 @@ body {
     border-bottom: 1px solid lightgray;
     border-right: 1px solid lightgray;
     outline-color: #107c41;
+    font-family: 'Noto Sans';
+    font-size: 14;
 }
 
 .input-cell.selected {
@@ -268,7 +271,7 @@ body {
     border: none;
     padding: 0;
     top: 30px;
-    left: 30px;
+    left: 9px;
     cursor: pointer;
 }
 
