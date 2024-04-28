@@ -108,7 +108,7 @@ $(document).ready(function () {
 
 function getRowCol(ele) {
   let idArray = $(ele).attr("id").split("-");
-  let rowId = idArray[1];
-  let colId = idArray[3];
+  let rowId = parseInt(idArray[1]);
+  let colId = parseInt(idArray[3]);
   return [rowId, colId];
 }
